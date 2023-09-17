@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+  }
+  html * {
+font-family: sans-serif;
+  }
+  
+  h1,header {
+    text-align: center;
+    color: rgb(49, 32, 32);
+    margin: 15px;
+  }
+  header{
+    text-align: right;
+    background-color: darkgreen;
+    height: 40px;
+    margin: 0;
+    border-width: 0;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h3 {
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+    font-size: 10px small;
+  }
+  footer {
+    text-align: center;
+    font-size: smaller;
+    color: white;
+    margin: 15px;
+    background-color: darkgreen;
+    height: 40px;
+    margin: 0;
+    border-width: 0;
+  }
